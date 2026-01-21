@@ -2,11 +2,10 @@ import React from "react";
 import NavBar from "../../helpers/Shares/NavBar";
 import Footer from "../../helpers/Shares/Footer";
 import Products from "../../components/ProductPage/Products";
-import { Divider } from "@mui/material";
 
 const ProductsPage =()=>{
     return(
-        <div>
+        <div >
             <div>
                 <NavBar />
             </div>
@@ -16,6 +15,7 @@ const ProductsPage =()=>{
             <div>
                 <Footer />
             </div>
+            
         </div>
     )
 }

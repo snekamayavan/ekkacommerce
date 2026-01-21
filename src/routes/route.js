@@ -4,6 +4,9 @@ import {BrowserRouter , Routes , Route} from "react-router-dom"
 import HomePage from "../pages/HomePage.js/HomePage"
 import AchievementPage from "../components/HomePage/AchievementPage"
 import ProductsPage from "../pages/ProductPage/ProductsPage"
+// import ProductDetails from "../components/HomePage/Product.details/ProductDetails"
+import ProductDetailsPage from "../pages/ProductDetailsPage/ProductDetailsPage"
+
 
 
 
@@ -15,6 +18,8 @@ const AppRouter = () => {
             <Route exact path="/" element={<HomePage/>} />
             {/* <Route exact path="/page" element={<AchievementPage />} /> */}
             <Route exact path="/productspage" element={<ProductsPage />} />
+            {/* <Route exact path="/productdetails" element={<ProductDetails />} /> */}
+            <Route exact path="/productdetailspage" element={<ProductDetailsPage />} />
         </Routes>
         </BrowserRouter>
     )
